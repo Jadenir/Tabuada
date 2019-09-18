@@ -12,7 +12,7 @@ namespace TabuadaAPS.NET
         protected void Page_Load(object sender, EventArgs e)
         {
             //Valida se está chamando pela primeira vez
-            if (! IsPostBack)
+            if (!IsPostBack)
             {
                 for (int i = 1; i < 10; i++)
                 {
